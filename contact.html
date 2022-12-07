@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="container">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Herron Barber Co.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="#navbarNavDropdown"
+         aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active" >
+                    <a class="nav-link" href="info.html">Barbers</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+               Online Store
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="https://shop.saloninteractive.com/store/HerronAndCoBarbers/all_brands" class="dropdown-item">Visit our online store</a>
+                    <a href="https://booksy.com/en-us/81463_herron-co-barbers_barber-shop_120538_genoa#ba_s=sr_1" class="dropdown-item">Purchase an E-gift certificate</a>
+                </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="https://www.facebook.com/herronandcobarbers/"><i class="fa fa-facebook-f" style="font-size:24px"></i></a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="https://www.instagram.com/genoagoodbarber/"><i class="fa fa-instagram" style="font-size:24px"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="text-center">
+    <img src="https://static.wixstatic.com/media/a896d9_b347dff7ac8545989e8857df78df98be.png/v1/fill/w_108,h_108,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a896d9_b347dff7ac8545989e8857df78df98be.png" alt="picture of a crown">
+</div>
+<div class="text-center">
+    <h1><b>CONTACT US</b></h1>
+    <h5><b>ADDRESS</b></h5>
+    <p>113 N Genoa St, Suit A, Genoa IL 60135 <br> Tel: 779-382-0543</p>
+</div>
+
+<div class="text-center">
+    <table class="table table-sm">
+   <h3>HOURS</h3>
+   <tr>
+    <th scope="col">Days</th>
+    <th scope="col">times</th>
+    </tr>
+    <tr>
+    <th scope="row">Tuesday & Wednesday</th>
+    <td>11am-7:30pm</td>
+    </tr>
+    <tr></tr>
+    <th scope="row">Thursday</th>
+    <td>10am-7:30pm</td>
+    <tr>
+        <th scope="row">Friday</th>
+        <td>10am-6pm</td>
+    </tr>
+    <tr>
+        <th scope="row">Saturday</th>
+        <td>8am-1pm</td>
+    </tr>
+    <tr>
+        <th scope="row">Sunday & Monday</th>
+        <td>Closed</td>
+    </tr>
+    </table>
+</div>
+<br>
+
+<div class="card">
+    <div class="card-body bg-info">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-appointment-name">Name</label>
+                    <input 
+                    type="text"
+                    name=""
+                    id="new-appointment-name"
+                    class="form-control"
+                    >
+                   <label for="new-appointment-date">Date</label>
+                   <input 
+                   type="date"
+                   name=""
+                   id="new-appointment-date"
+                   class="form-control"
+                   >
+                   <label for="new-appointment-time">Time</label>
+                   <input 
+                   type="time"
+                   name=""
+                   id="new-appointment-time"
+                   class="form-control"
+                   >
+                </div>
+                <br>
+                <button id="add-new-appointment" class="btn btn-dark form-control">
+                    Add New Appointment
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<table id="appointments-list" class="table table-dark table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Date Appointment Created</th>
+        <th>Date Of Appointment</th>
+        <th>Time Of Appointment</th>
+        <th>Actions</th>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+<div class="text-center embed-responsive embed-responsive-21by9">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4503899954775!2d-88.69560568455198!3d42.09782397920536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f31964d5e83a7%3A0x97b3ec4f13b3b5ed!2sHerron%20%26%20Co.%20Barbers!5e0!3m2!1sen!2sus!4v1668881894233!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="appointments.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
